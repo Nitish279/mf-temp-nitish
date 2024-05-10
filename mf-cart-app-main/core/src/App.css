@@ -1,0 +1,13 @@
+::-webkit-scrollbar {
+    display:none;
+}
+
+.dark {
+    background-color: #BBBCB6;
+    min-height: 100vh;
+}
+
+.light {
+    background-color: #E8E9EB;
+    min-height: 100vh;
+}
