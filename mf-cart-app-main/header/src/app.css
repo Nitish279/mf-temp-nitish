@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.marquee-wrapper {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    /* background-color: #f5f5f5; */
+
+
+    background-color: #001eff;
+    color: white;
+    /* border-radius: 5px; */
+    padding: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.navbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 36px;
+    border: 1px solid #001eff;
+
+}
+
+
+
+/* .navbar-wrapper .track-order {
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-wrapper svg {
+    margin-right: 2px;
+}
+
+.navbar-wrapper .track-order i {
+    margin-right: 10px;
+}
+
+.navbar-wrapper .auth-links span {
+    font-size: 12px;
+}
+
+.navbar-wrapper .auth-links span:first-child {
+    margin-right: 10px;
+} */
+
+
+/* .second-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+} */
+
+.revenue-info,
+.proposal {
+    display: flex;
+    align-items: center;
+}
+
+.revenue-info-icons {
+    position: relative;
+    margin-right: 10px;
+}
+
+.revenue-text {
+    font-size: 16px;
+    color: #666;
+}
+
+.revenue-number {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4d4d4d;
+}
+
+.proposal .proposal-icon {
+    margin-right: 6px;
+}
+
+.proposal span {
+    font-size: 18px;
+}
+
+.header {
+    width: 100%;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 32px;
+    /* border: 1px solid #e3e3e3; */
+    background: #fafafa;
+    border-bottom: 1px solid #001eff;
+}
+
+.header__icon {
+    max-width: 150px;
+    max-height: 120px;
+    fill: #222;
+    transition: fill .2s linear;
+}
+
+/* NAVIGATION */
+
+.nav {
+    display: flex;
+}
+
+.nav__link {
+    position: relative;
+    padding: 0 12px;
+    color: #4d4d4d;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: color .2s linear;
+    /* border-right: 1px #4d4d4d solid; */
+}
+
+.nav__link:last-child {
+    /* border-right: none; */
+    padding-right: 0;
+}
+
+.nav__link:hover {
+    color: #001eff;
+}
+
+.nav__link:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 5px;
+    background-color: #000;
+
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    z-index: 1;
+    transition: all .2s linear;
+}
+
+.nav__link:hover:after {
+    width: 100%;
+    background-color: #001eff;
+}
+
+/* .revenue-info-icons .icon-arrow {
+    position: absolute;
+    top: -7px;
+    right: 3px;
+} */
+
+/* .icon {
+    font-size: 24px;
+    color: #666;
+    margin-right: 10px;
+}
+
+.search .icon {
+    cursor: pointer;
+}  */
